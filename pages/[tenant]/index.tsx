@@ -10,11 +10,14 @@ const Home = () => {
             <div className={styles.headerSubTitle}>O que deseja para hoje?</div>
           </div>
           <div className={styles.headerTopRight}>
-            
+            <div className={styles.menuButton}></div>
+              <div className={styles.menuButtonLine}></div>
+              <div className={styles.menuButtonLine}></div>
+              <div className={styles.menuButtonLine}></div>
           </div>
         </div>
         <div className={styles.headerBottom}>
-          Busca
+          ...
         </div>
       </header>
     </div>
